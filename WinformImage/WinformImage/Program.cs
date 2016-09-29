@@ -38,11 +38,17 @@ namespace WinformImage
             //var bytes = Encoding.Default.GetBytes(Copyright);
             //_ms.Write(bytes, 0, bytes.Length);
 
-            Bitmap img = new Bitmap(510, 510);
+            Bitmap img = new Bitmap(700, 700);
             var b_img = Image.FromFile(WorkingDirectory + "\\1.jpg");
             var c_img = Image.FromFile(WorkingDirectory + "\\3.jpg");
 
             var g = Graphics.FromImage(img);
+            g.Clear(Color.White);
+            // 设置画布的描绘质量         
+            g.CompositingQuality = CompositingQuality.HighQuality;
+            g.SmoothingMode = SmoothingMode.HighQuality;
+            g.InterpolationMode = InterpolationMode.HighQualityBicubic;
+
             g.DrawRectangle(new Pen(Color.Orchid), new Rectangle(0, 0, 500, 500));
 
             g.DrawRectangle(new Pen(Color.DeepSkyBlue, 100), 0, 0, 450, 50);
@@ -50,7 +56,7 @@ namespace WinformImage
             //g.DrawImage(img, new PointF(10, 10));
             //g.DrawImage(img, new Rectangle(0, 0, 500, 300), new Rectangle(20, 50, 350, 350), GraphicsUnit.Pixel);
             //g.DrawEllipse(new Pen(Color.MistyRose), new RectangleF(0, 0, 500, 50));
-            g.DrawString(Copyright, new Font(new FontFamily("华文隶书"), 12, FontStyle.Bold), new SolidBrush(Color.FromArgb(200, 0, 230, 25)), 100, 50);
+            g.DrawString(Copyright, new Font(new FontFamily("华文隶书"), 12, FontStyle.Bold), new SolidBrush(Color.FromArgb(150, 0, 230, 25)), 100, 50);
             //g.FillRectangle(new SolidBrush(Color.Coral), new Rectangle(new Point(0, 100), new Size(300, 100)));
             //img.MakeTransparent(Color.Transparent);
             var imageAtt = new ImageAttributes();
@@ -66,6 +72,7 @@ namespace WinformImage
                 GraphicsUnit.Pixel,
                 imageAtt
                 );
+            //g.DrawImage(c_img,new RectangleF(0,500,200,200));
             img.Save(WorkingDirectory + "\\_1.jpg");
             img.Dispose();
             g.Dispose();

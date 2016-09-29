@@ -1,1 +1,7 @@
 D:\workspace\JangoImg\ConsoleImage\ImageConsoleImage\ImageConsoleImage\bin\Debug\ImageConsoleImage.exe.config
+D:\workspace\JangoImg\ConsoleImage\ImageConsoleImage\ImageConsoleImage\bin\Debug\ImageConsoleImage.exe
+D:\workspace\JangoImg\ConsoleImage\ImageConsoleImage\ImageConsoleImage\bin\Debug\ImageConsoleImage.pdb
+D:\workspace\JangoImg\ConsoleImage\ImageConsoleImage\ImageConsoleImage\bin\Debug\ImageConsoleImage.exe.CodeAnalysisLog.xml
+D:\workspace\JangoImg\ConsoleImage\ImageConsoleImage\ImageConsoleImage\bin\Debug\ImageConsoleImage.exe.lastcodeanalysissucceeded
+D:\workspace\JangoImg\ConsoleImage\ImageConsoleImage\ImageConsoleImage\obj\Debug\ImageConsoleImage.exe
+D:\workspace\JangoImg\ConsoleImage\ImageConsoleImage\ImageConsoleImage\obj\Debug\ImageConsoleImage.pdb

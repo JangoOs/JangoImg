@@ -1,8 +1,8 @@
 D:\workspace\JangoImg\WinformImage\WinformImage\bin\Debug\WinformImage.exe.config
 D:\workspace\JangoImg\WinformImage\WinformImage\bin\Debug\WinformImage.exe
 D:\workspace\JangoImg\WinformImage\WinformImage\bin\Debug\WinformImage.pdb
-D:\workspace\JangoImg\WinformImage\WinformImage\obj\Debug\WinformImage.csprojResolveAssemblyReference.cache
 D:\workspace\JangoImg\WinformImage\WinformImage\obj\Debug\WinformImage.Properties.Resources.resources
 D:\workspace\JangoImg\WinformImage\WinformImage\obj\Debug\WinformImage.csproj.GenerateResource.Cache
 D:\workspace\JangoImg\WinformImage\WinformImage\obj\Debug\WinformImage.exe
 D:\workspace\JangoImg\WinformImage\WinformImage\obj\Debug\WinformImage.pdb
+D:\workspace\JangoImg\WinformImage\WinformImage\obj\Debug\WinformImage.csprojResolveAssemblyReference.cache
